@@ -12,79 +12,69 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
-
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <ToolingIcon />
-    </template>
-    <template #heading>Tooling</template>
-
-    This project is served and bundled with
-    <a href="https://vite.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a>
-    and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <template #heading>Quelques informations sur moi</template>
+    <p>
+      👨‍💻 Je suis Product Manager Freelance. <strong>(SCRUM / SAFe / Lean Six Sigma)</strong><br/>
+      🎓 <strong>Certifié</strong> Lean Six Sigma Black Belt.<br/>
+      ⚙️ <strong>+100</strong> projets IT gérés / <strong>+30</strong> projets PHP/Python/Vue.js développés.<br/>
+      🧑‍💼 <strong>+6</strong> d'expériences.<br/>
+      🇬🇧 Je parle <strong>Anglais couramment</strong>.<br/>
+      🎾 Je suis passionné de sport, notamment de tennis.<br/>
+      ✍️ J’écris des romans et des livres pratiques à mes heures perdues. (Dark Fantasy et Dev Perso).<br/>
+      👮‍♂️ <strong>Fun fact :</strong> J'ai été Gendarme en unité d'intervention pendant 3 ans.<br/>
+    </p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>Pourquoi faire appel à moi en qualité de Product Manager ?</template>
+    <ul>
+      <li>Product Manager <strong>spécialisé dans l'IT</strong> depuis 6 ans.</li>
+      <li>Identifier, comprendre et anticiper <strong>les besoins des utilisateurs</strong> afin d'optimiser la valeur ajoutée du produit.</li>
+      <li><strong>Déterminer, rédiger et prioriser</strong> les fonctionnalités produits.</li>
+      <li>Réalisation des <strong>spécifications fonctionnelles et techniques</strong>.</li>
+      <li><strong>Mise en place et suivi des méthodologies agiles</strong> SCRUM et Lean Six Sigma. (Daily, sprints, reviews, backlog, planning).</li>
+      <li><strong>Animation et management</strong> d'équipe d'ingénieurs.</li>
+      <li><strong>Accompagnement</strong> des utilisateurs finaux. (Utilisation/support/incidents).</li>
+    </ul>
+  </WelcomeItem>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+  <WelcomeItem>
+    <template #icon>
+      <ToolingIcon />
+    </template>
+    <template #heading>Ma boite à outil</template>
+    <ul>
+      <li><strong>Méthodes agiles</strong>. (SCRUM, SAFe, Lean Six Sigma)</li>
+      <li><strong>Management</strong> d'équipe IT.</li>
+      <li>Compréhension fine de la <strong>programmation</strong>. (Ancien développeur).</li>
+      <li><strong>Communication</strong>.</li>
+      <li><strong>Outils :</strong> JIRA, Confluence, ClickUp, Gitlab, Mattermost, Teams ...</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Community</template>
+    <template #heading>On travaille ensemble ?</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a>
-    and follow the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    <p>
+      J'interviens aux alentours de <strong>Bordeaux + Full remote</strong>. <br/>
+      Contact via mon profil : <a href="https://www.malt.fr/profile/nicolasgadeyne" target="_blank" rel="noopener">Malt</a>.
+    </p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    <template #heading>Ils m'ont fait confiance</template>
+    <p>
+      France Travail, DILCRAH, E-Santé Occitanie, RFI, Business France, 
+      French healthcare, French Fab, Harfanglab, AFPOLS...
+    </p>
   </WelcomeItem>
 </template>

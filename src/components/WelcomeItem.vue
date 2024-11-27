@@ -19,6 +19,10 @@
   position: relative;
 }
 
+i:hover {
+  background-color: hsla(160, 100%, 37%, 0.2);
+}
+
 .details {
   flex: 1;
   margin-left: 1rem;

@@ -1,16 +1,11 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
-
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">Nicolas Gadeyne</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Product Manager Freelance, <br>
+      <a href="https://scrum.org/" target="_blank" rel="noopener">SCRUM</a> +
+      <a href="https://scaledagileframework.com/" target="_blank" rel="noopener">SAFe</a> + 
+      <a href="https://fr.wikipedia.org/wiki/Lean_Six_Sigma" target="_blank" rel="noopener">Lean Six Sigma</a>.
     </h3>
   </div>
 </template>
